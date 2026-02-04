@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohit Computers</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #34495e;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #1abc9c;
+    }
+    .hero {
+      background: #1abc9c;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+    }
+    .columns {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+    }
+    .column {
+      flex: 1;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ROHIT COMPUTERS</h1>
+    <p>Your Trusted Computer Shop</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Welcome to ROHIT COMPUTERS</h1>
+    <p>Best deals on laptops, desktops, and accessories</p>
+  </section>
+
+  <section class="columns">
+    <div class="column">
+      <h2>Laptops</h2>
+      <p>Wide range of branded laptops at affordable prices.</p>
+    </div>
+    <div class="column">
+      <h2>Desktops</h2>
+      <p>Powerful desktops for office, gaming, and personal use.</p>
+    </div>
+    <div class="column">
+      <h2>Accessories</h2>
+      <p>Keyboards, mice, headphones, and more available.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Rohit Computers | Designed by ROHIT CHOUHAN</p>
+  </footer>
+</body>
+</html>
