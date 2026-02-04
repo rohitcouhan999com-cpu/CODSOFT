@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROHIT CHOUHAN Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f4f4f4;
+    }
+    header {
+      background: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #1abc9c;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.2em;
+      color: #ccc;
+    }
+    nav {
+      background: #222;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: #f4f4f4;
+      padding: 10px 20px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #1abc9c;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .about img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      border: 3px solid #1abc9c;
+    }
+    .skills, .projects {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: #1f1f1f;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      width: 250px;
+      color: #f4f4f4;
+    }
+    .card h3 {
+      color: #1abc9c;
+    }
+    a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #1abc9c;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    a.button:hover {
+      background: #16a085;
+    }
+    footer {
+      background: #1f1f1f;
+      color: #ccc;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ROHIT CHOUHAN</h1>
+    <p>BCA 1st Year Student | Learning Web Development</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <img src="myphoto.jpg" alt="ROHIT CHOUHAN Photo">
+    <p>Hello! I am ROHIT CHOUHAN, currently pursuing BCA 1st year. I am learning the basics of programming and web development, and I enjoy creating simple projects to improve my skills.</p>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+      <div class="card">C++ Programming</div>
+      <div class="card">Web Development (HTML & CSS)</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Calculator</h3>
+        <p>A basic calculator using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>Landing Page</h3>
+        <p>Simple landing page design using HTML & CSS.</p>
+      </div>
+      <div class="card">
+        <h3>Portfolio Page</h3>
+        <p>This personal portfolio showcasing my skills and projects.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Download my resume below:</p>
+    <a href="resume.pdf" class="button">Download Resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: rohitcouhan999.com@gmail.com</p>
+    <p>Mobile: +91 9669660180</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 ROHIT CHOUHAN Portfolio | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
